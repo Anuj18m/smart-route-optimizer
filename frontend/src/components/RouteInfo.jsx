@@ -9,7 +9,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 export default function RouteInfo({ result, nodes }) {
   if (!result || !result.path || result.path.length === 0) return null
 
-  const nodeMap = Object.fromEntries(nodes.map((n) => [n.id, n]))
   const { path, path_names, distance, algorithm, execution_time_ms } = result
 
   return (

@@ -7,7 +7,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip,
-  ResponsiveContainer, CartesianGrid, Cell,
+  ResponsiveContainer, CartesianGrid,
 } from 'recharts'
 
 // ── Metric card ────────────────────────────────────────────────────────────

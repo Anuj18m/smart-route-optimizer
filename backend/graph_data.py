@@ -77,7 +77,7 @@ def build_graph():
     for src, dst, dist in BASE_EDGES:
         graph[src][dst] = dist
         # Only add reverse if it doesn't already exist (avoids overwriting explicit reverses)
-        if dst not in graph or src not in graph[dst]:
+        if src not in graph[dst]:
             graph[dst][src] = dist
     return graph
 

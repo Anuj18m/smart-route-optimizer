@@ -4,7 +4,7 @@
  * Uses react-leaflet v4 with a dark tile layer by default.
  */
 
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet'
 import L from 'leaflet'
 
