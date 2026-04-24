@@ -23,7 +23,7 @@ export default function ControlPanel({
 }) {
   return (
     <motion.div
-      className="glass-panel absolute left-4 top-4 z-[1000] w-64 p-5 flex flex-col gap-4"
+      className="glass-panel w-64 p-5 flex flex-col gap-4"
       initial={{ opacity: 0, x: -32 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.45, ease: 'easeOut' }}
